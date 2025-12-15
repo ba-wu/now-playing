@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target .NET 8 (VintageStory 1.20.x uses .NET 8) -->
+    <TargetFramework>net8.0</TargetFramework>
+
+    <!-- Don't actually build - VintageStory compiles at runtime -->
+    <IsPackable>false</IsPackable>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+
+    <!-- Nullable reference types - enabled for strict null checking -->
+    <Nullable>enable</Nullable>
+
+    <!-- Language version -->
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- VintageStory API References -->
+    <Reference Include="VintagestoryAPI">
+      <HintPath>../../lib/VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>../../lib/VintagestoryLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Note: .NET SDK automatically includes all *.cs files, no need to specify them -->
+
+</Project>

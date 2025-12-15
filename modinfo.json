@@ -1,0 +1,14 @@
+{
+  "type": "code",
+  "modId": "nowplaying",
+  "name": "Now Playing",
+  "authors": [
+    "bawu"
+  ],
+  "description": "Displays the currently playing music track with the .song command",
+  "version": "1.0.0",
+  "side": "Client",
+  "dependencies": {
+    "game": "1.19.0"
+  }
+}

@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+
+# Build outputs
+dist/
+bin/
+obj/
+*.dll
+*.pdb
+
+# Dependencies
+packages/
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
